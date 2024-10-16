@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Html Elements</title>
+</head>
+<body>
+<table>
+<tr>
+    <th>1</th> <th>2</th>
+</tr>
+<tr>
+    <td>3</td> <td>4</td>
+</tr>
+</table>
+</body> 
+</html>
