@@ -2,6 +2,7 @@
     background-color: blue;
     padding: 20px;
     color: white;
+    border: 5px solid black;
 }
 span{
     margin-top: 50px;
@@ -13,10 +14,6 @@ spam{
     background-color: brown;
     color:  blue;
 }
-.bg-img {
-    background: url(https://lh3.googleusercontent.com/59ox2d86S-m89eKP5QMObx2b1cqOQS3FwPl1b52UUjXqWmAwCWDcT_7vx_ouuqzhjxaW2Lbjo-o=w1440-ns-nd-rj;)
-}
-.border{
-    border-width: 2px;
-    border-style: solid;
+.border-solid{
+    border: 2px solid green;
 }
