@@ -1,0 +1,11 @@
+.text-style{
+    color: red;
+    letter-spacing: 10px;
+    word-spacing: 15px;
+    text-decoration: underline;
+    text-align: center;
+}
+@font-face{
+    font-family:"body-text";
+    src:("../fonts/Jaro-Regular.ttf");
+}
