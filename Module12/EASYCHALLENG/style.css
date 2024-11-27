@@ -1,0 +1,12 @@
+.text-style{
+    color: red;
+    letter-spacing: 10px;
+    word-spacing: 15px;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 40px;
+}
+@font-face{
+    font-family:"body-text";
+    src: url(./Jaro-Regular.ttf);
+}
