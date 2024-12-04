@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Altin Krasniqi</title>
+    <style>
+        article > p{
+            background-color: black;
+            color: blue;
+        }
+        div > p{
+            background-color: red;
+            color: black;
+        }
+        p{background-color: yellow;
+          color: black;
+        }
+        input:focus{
+            background-color: green;
+            color: blue;
+            border: 200px;
+            height: 100px;
+            width: 100px;
+        }
+        p:first-of-type{
+            background-color: aqua;
+        }
+        p::first-letter{
+            color:green;
+            background-color: antiquewhite;
+        }
+        p::first-line{
+            color: purple;
+        }
+        p::after{
+            content: url(https://upload.wikimedia.org/wikipedia/en/2/2b/KB_Golden_Eagle_Ylli.jpg);
+            max-width: 100px;
+        }
+        p::selection{
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <article>
+        <p>Jon Gashi</p>
+        <p>This is an example</p>
+        <div>
+            <p>Jon Gashiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii</p>
+        <p>This is an example</p>
+        </div>
+    </article>
+    <p>pharagraph 1</p>
+    <p>pharagraph 2</p>
+    <input type="number" min="1" max="420">
+</body>
+</html>
