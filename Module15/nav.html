@@ -1,21 +1,48 @@
-<!DOCTYPE html>
+
 <html>
 <head>
     <meta charset="UTF-8" />
     <title>title</title>
     <style>
-        ul{
-            border: 1px;
+        body{
+            margin: 0;
         }
+      ul{
+        list-style-type:none ;
+        margin: 0;
+        padding: 0;
+        background:darkgreen ;
+        overflow: hidden;
+        display: inline-block;
+        height: 100%;
+        width: 350px;
+      }
+      ul li{
+        font-weight: 900 !important;
+        
+      }
+    ul li a{
+        display: block;
+        padding: 15px;
+        text-decoration: none;
+        color: white;
+    }
+    ul li a:hover:not(.active){
+        background-color: lightgreen;
+        color: orange;
+    }
+    .active{
+        background-color: darkorange;
+    }
     </style>
 </head>
 <body>
     <nav>
         <ul>
-            <li>0</li>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#news">NEWS</a></li>
+            <li><a href="#contact" class="active">CONTACT</a></li>
+            <li><a href="#about">ABOUT</a></li>
         </ul> 
     </nav>
     
