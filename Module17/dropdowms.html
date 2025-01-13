@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+    <style>
+        :root{
+            --primary-color: blue;
+            --secondary-color:green;
+            --spacing-inside-menu-items:20px;
+        }
+        a{
+            text-decoration: none;
+            color: #000;
+        }
+        .dropdowm{
+            position: relative;
+        }
+        .dropdown-content{
+            background-color: var(--primary-color);
+            position: absolute;
+            display: none;
+            padding: 5px 10px;
+            border: 1px solid #ddd;
+            -webkit-box-shadow: 35px 83px 56px 0px rgba(97,107,98,1);
+            -moz-box-shadow: 35px 83px 56px 0px rgba(97,107,98,1);
+            box-shadow: 35px 83px 56px 0px rgba(97,107,98,1);
+            left: 0;
+            top: var(--spacing-inside-menu-items)
+        }
+        .dropdown-content:hover{
+            display: inline-block;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="dropdown">
+        <a href="#">Hover over me</a>
+        <div class="dropdown-content">
+            <p>Hello there</p>
+        </div>
+    </div>   
+    <div class="tooltip">
+        tooltip
+        <div class="Tooltip-text"></div>
+    </div>
+</body>
+</html>
