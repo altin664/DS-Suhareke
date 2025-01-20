@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+    <style>
+                body{
+            counter-reset: number;
+        }
+        h2::before{
+            counter-increment: number;
+            content: counter(name);
+            background-color: green;
+            color: white;
+            padding: 10px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Counter of Programing Languages</h1>
+    <h2>HTML</h2>
+    <h2>CSS</h2>
+    <h2>Javascript</h2>
+    <h2>Python</h2>
+    <h2>PHP</h2>
+    <h2>AI</h2>
+    
+</body>
+</html>

@@ -31,6 +31,18 @@
         .dropdown-content:hover{
             display: inline-block;
         }
+        body{
+            counter-reset: number;
+        }
+        h2::before{
+            counter-increment: number;
+            content: counter(name);
+            background-color: green;
+            color: white;
+            padding: 10px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
 
     </style>
 </head>
@@ -40,10 +52,13 @@
         <div class="dropdown-content">
             <p>Hello there</p>
         </div>
-    </div>   
-    <div class="tooltip">
-        tooltip
-        <div class="Tooltip-text"></div>
-    </div>
+    <h1>Counter of Programing Languages</h1>
+    <h2>HTML</h2>
+    <h2>CSS</h2>
+    <h2>Javascript</h2>
+    <h2>Python</h2>
+    <h2>PHP</h2>
+    <h2>AI</h2>
+  
 </body>
 </html>
