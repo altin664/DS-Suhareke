@@ -10,6 +10,7 @@
         }
         #section-1{
             background-color: #87509c;
+            height: 595px;
         }
         #section > div{
             display: flex;
@@ -24,10 +25,64 @@
         nav ul li{
             display: inline-block;
             padding: 10px 15px;
+            float: right;
         }
         nav ul li a{
            display: inline-block;
             color: white;
+        }
+        div{
+            float: center;
+            color: white;
+        }
+        .main-heading{
+            align-items: baseline;
+            margin: auto;
+            width: 50%;
+            padding: 10px;
+        }
+        .main-heading a{
+            text-decoration: none;
+            background-color: orange;
+            color: white;
+            padding: 15px 10px;
+            font-size: 18px;
+            text-align: center;
+            margin: auto;
+        }
+        
+        #section-2{
+            background-color: aqua;
+            min-height: 745px;
+            color: white;
+        }
+        .title-box{
+            text-align: center;
+            max-width: 609px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .title-box h2{
+            margin-top: 0px;
+            margin-bottom: 10px;
+            padding-top: 100px;
+            font-size: 40px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        .title-box .line{
+            width: 87PX;
+            height: 4PX;
+            background-color: black;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        .services-box{
+            margin-top: 87px;
+            display: flex;
+            margin-right: auto;
+            margin-left: auto;
+            width: 90%;
         }
     </style>
 </head>
@@ -56,8 +111,37 @@
             </ul>
         </nav>
         <div class="main-heading">
-            <h1>Hi there! We are the new ki9ds on the block!</h1>
-            <a href="#">WORK WITH US!</a>
+            <h1>Hi there! We are the new kids on the block!</h1>
+            <a class="btn-heading" href="#">WORK WITH US!</a>
+        </div>
+    </section>
+    <section id="section-2">
+        <div class="container">
+            <div class="title-box">
+                <h2>SERVICES WE PROVIDE</h2>
+                <div class="line"></div>
+                <p>We are working with both individuals....</p>
+                <div class="service-box">
+                    <div class="service">
+                        <img src="flag-icon.png"> 
+                        <h3>BRANDING</h3>
+                        <p>Lorem ipsum dolor sit amet .....</p>
+                    </div>
+                    <div class="service">
+                        <img src="crayon-icon.png">
+                        <h3>lKJBSJAHBFLARBFIPWUREGBPIERIPRBV.....</h3>
+                    </div>
+                    <div class="service">
+                        <img src="gears-icon.png">
+                        <h3>BRANDING</h3>
+                        <p>digsucvaoudfvuyvbufrbiubrvbrvbv....</p>
+                    </div>
+                    <div class="rocket-icon.png">
+                        <h3>BRANDING</h3>
+                        <p>BPISABFIVSBNIBNFGPBWJTBRIUBRIPVGWUBERV....</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 </body>
