@@ -1,0 +1,15 @@
+
+@media(max-width:900px){
+   .slide{
+       width: 100%;
+   }
+   .post{
+       width: 101%;
+   }
+}
+@media(min-width:600px){
+.responsive{
+   background-color: green;
+   color: orange;
+}
+} 
