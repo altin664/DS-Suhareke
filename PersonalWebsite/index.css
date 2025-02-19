@@ -17,5 +17,10 @@ th {
 .main {
     background-color: yellow;
     color: blue;
+    caret-color: black;
+    padding: 10px;
+}
+.main:hover{
+    cursor: pointer;
 }
   
