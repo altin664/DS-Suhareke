@@ -1,12 +1,29 @@
+body{
+    
+}
+h1{
+    color: white;
+    background-color: darkred;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+}
 table {
-    width: 100%;
+    width: 97%;
     border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
 }
 
 th, td {
     padding: 8px;
     text-align: left;
     border: 1px solid #ddd;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 th {
@@ -14,13 +31,59 @@ th {
     color: white;
 }
 
-.main {
+.ylli{
     background-color: yellow;
     color: blue;
-    caret-color: black;
     padding: 10px;
 }
-.main:hover{
-    cursor: pointer;
+.trepca:hover{
+    background-color: green;
+    color: black;
+    padding: 10px;
+    transform: scale(1.04);
+    transition: all ease-in-out 0.4s;
 }
+.bashkimi:hover{
+    background-color: orange;
+    color: black;
+    padding: 10px;
+    transform: scale(1.04);
+    transition: all ease-in-out 0.4s;
+}
+.peja:hover{
+    background-color: black;
+    color: yellow;
+    padding: 10px;
+    transform: scale(1.04);
+    transition: all ease-in-out 0.4s;
+}
+.prishtina:hover{
+    background-color: blue;
+    color: wheat;
+    padding: 10px;
+    transform: scale(1.04);
+    transition: all ease-in-out 0.4s;
+}
+.vellaznimi:hover{
+    background-color: red;
+    color: black;
+    padding: 10px;
+    transform: scale(1.04);
+    transition: all ease-in-out 0.4s;
+}
+.prizreni:hover{
+    background-color: orange;
+    color: black;
+    padding: 10px;
+    transform: scale(1.04);
+    transition: all ease-in-out 0.4s;
+}
+.bora:hover{
+    background-color:white;
+    color: blue;
+    padding: 10px;
+    transform: scale(1.04);
+    transition: all ease-in-out 0.4s;
+}
+
   
