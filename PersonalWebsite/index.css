@@ -1,5 +1,29 @@
 body{
-    
+    background-color: #f1f1f1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+ul li a{
+    display: inline;
+    padding: 14px 16px;
+    color: yellow;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+ul li a:hover{
+    background-color: yellow;
+    color: darkorange;
 }
 h1{
     color: white;
@@ -36,12 +60,20 @@ th {
     color: blue;
     padding: 10px;
 }
+.ylli:hover{
+    background-color: yellow;
+    color: darkorange;
+    padding: 10px;
+    transform: scale(1.04);
+    transition: all ease-in-out 0.4s;
+}
 .trepca:hover{
     background-color: green;
     color: black;
     padding: 10px;
     transform: scale(1.04);
     transition: all ease-in-out 0.4s;
+    transition: all ease-out 0.4s;
 }
 .bashkimi:hover{
     background-color: orange;
