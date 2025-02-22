@@ -1,22 +1,37 @@
+
+::selection{
+    background: rgb(197, 197, 19);
+    color: rgb(24, 23, 23);
+}
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    background-image: url(polygon-scatter-haikei\ \(1\).png);
+    background-image: url(polygon-scatter-haikei\ \(1\).svg);
     background-size: cover;
 }
 nav{
     width: 100%;
     display: flex;
     align-items: center;
-    height: 60px;
-    padding: 10px;
+    height: 65px;
+    padding: 0px;
     background-color: rgb(24, 23, 23);
+    justify-content: end;
+}
+.logo{
+    color: rgb(197, 197, 19);
+    align-items: center;
+    font-size: 30px;
 }
 li{
     list-style: none;
     display: inline-block;
+}
+ul{
+    margin: 0;
+    padding: 0;
 }
 a{
     position: relative;
@@ -28,6 +43,7 @@ a{
     text-decoration: none;
     transition: all 0.4s ease-in-out;
     border-radius: 10px;
+    font-family: Rubik, sans-serif;
 }
 a:hover{
     color: rgb(24, 23, 23);
@@ -50,7 +66,6 @@ h1{
     border: 1px solid black;
     border-collapse: collapse;
 }
-
 .bordered th, .bordered td {
     border: 1px solid black;
 }
@@ -59,21 +74,19 @@ table {
     border-collapse: collapse;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 10px;
+    background-color: #ddd;
+    opacity: 0.8;
 }
-
 th, td {
     padding: 8px;
     text-align: left;
     border: 1px solid #ddd;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
 th {
     background-color:rgb(24, 23, 23);
     color: #ddd;
 }
-
 .ylli{
     background-color:rgb(197, 197, 19);
     color: rgb(24, 23, 23);
@@ -98,6 +111,7 @@ th {
     transition: all ease-in-out 0.4s;
 }
 .bashkimi{transition: all 0.4s ease-in-out;
+
 }
 .bashkimi:hover{
     background-color: rgb(182, 107, 15);
@@ -156,43 +170,6 @@ th {
     transform: scale(1.04);
     transition: all ease-in-out 0.4s;
 }
-form {
-    max-width: 600px;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    background-color: #f9f9f9;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
 
-label {
-    display: block;
-    margin-bottom: 8px;
-    font-weight: bold;
-}
-
-input, textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-button {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    background-color: #4CAF50;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-}
-
-button:hover {
-    background-color: #45a049;
-}
 
   
