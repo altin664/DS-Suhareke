@@ -13,7 +13,7 @@ body{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    background-image: url(polygon-scatter-haikei\ \(1\).svg);
+    background-image: url(symbol-scatter-haikei.svg);
     background-size: cover;
 }
 nav {
@@ -61,13 +61,17 @@ a:hover{
     border-radius: 10px;
     box-shadow: 0px 0px 50px 30px #292700;
 }
+a:hover::selection{
+    background: rgb(24, 23, 23);
+    color: rgb(197, 197, 19);
+}
 h1{
     color: #ddd;
     background-color: rgb(24, 23, 23);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: auto;
     margin-right: auto;
-    width: 51%;
+    width: 56%;
     padding: 10px;
     border-radius: 10px;
     margin-top: 20px;
@@ -181,4 +185,477 @@ th {
     padding: 10px;
     transform: scale(1.04);
     transition: all ease-in-out 0.4s;
+}
+.JavaI{
+  width: 40%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  float: left;
+  margin-left: 6%;
+}
+p{
+    background-color: rgb(197, 197, 19);
+    color: rgb(24, 23, 23);
+    border-radius: 10px;
+    width: 16%;
+    text-align: center;
+    margin: 0;
+}
+p::selection{
+    background: rgb(24, 23, 23);
+    color: rgb(197, 197, 19);
+}
+.javaI, .teams{
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+.javaI{
+  background-color: rgb(24, 23, 23);
+  color: #ddd;
+}
+.match{
+  background-color: white;
+}
+.main-match{
+    background-color: rgb(197, 197, 19);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.procredit{
+    background-color: rgb(24, 23, 23);
+    color: #ddd;
+    padding: 10px;
+    align-items: center;
+    width: 70%;
+}
+.JavaII{
+    width: 40%;
+    border-collapse: collapse;
+    float: right;
+    margin-right: 6%;
+    margin-bottom: 20px;
+}
+.javaII, .teams{
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+.JavaIII{
+    width: 40%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    float: left;
+    margin-left: 6%;
+}
+.javaIII, .teams{
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+.javaIII{
+    background-color: rgb(24, 23, 23);
+    color: #ddd;
+}
+.JavaIV{
+    width: 40%;
+    border-collapse: collapse;
+    float: right;
+    margin-right: 6%;
+    margin-bottom: 20px;
+    position: relative;
+}
+.javaIV, .teams{
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+.javaIV{
+    background-color: rgb(24, 23, 23);
+    color: #ddd;
+}
+.JavaV{
+    width: 40%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    float: left;
+    margin-left: 6%;
+}
+.javaV, .teams{
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+.javaV{
+    background-color: rgb(24, 23, 23);
+    color: #ddd;
+}
+.JavaVI{
+    width: 40%;
+    border-collapse: collapse;
+    float: right;
+    margin-right: 6%;
+    margin-bottom: 20px;
+}
+.javaVI, .teams{
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+.JavaVI{
+    background-color: #ddd;
+    color: rgb(24, 23, 23);
+}
+.JavaVII{
+    width: 40%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    float: left;
+    margin-left: 6%;
+}
+.javaVII, .teams{
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+.javaVII{
+    background-color: rgb(24, 23, 23);
+    color: #ddd;
+}
+.JavaVIII{
+    width: 40%;
+    border-collapse: collapse;
+    float: right;
+    margin-right: 6%;
+    margin-bottom: 20px;
+}
+.javaVIII, .teams{
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+.javaVIII{
+    background-color: rgb(24, 23, 23);
+    color: #ddd;
+}
+.JavaIX{
+    width: 40%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    float: left;
+    margin-left: 6%;
+}
+.javaIX, .teams{
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+.javaIX{
+    background-color: rgb(24, 23, 23);
+    color: #ddd;
+}
+.JavaX{
+    width: 40%;
+    border-collapse: collapse;
+    float: right;
+    margin-right: 6%;
+    margin-bottom: 20px;
+}
+.javaX, .teams{
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+.javaX{
+    background-color: rgb(24, 23, 23);
+    color: #ddd;
+}
+.JavaXI{
+    width: 40%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    float: left;
+    margin-left: 6%;
+}
+.javaXI, .teams{
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+.javaXI{
+    background-color: rgb(24, 23, 23);
+    color: #ddd;
+}
+.JavaXII{
+    width: 40%;
+    border-collapse: collapse;
+    float: right;
+    margin-right: 6%;
+    margin-bottom: 20px;
+}
+.javaXII, .teams{
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+.javaXII{
+    background-color: rgb(24, 23, 23);
+    color: #ddd;
+}
+.JavaXIII{
+    width: 40%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    float: left;
+    margin-left: 6%;
+}
+.javaXIII, .teams{
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+.javaXIII{
+    background-color: rgb(24, 23, 23);
+    color: #ddd;
+}
+.JavaXIV{
+    width: 40%;
+    border-collapse: collapse;
+    float: right;
+    margin-right: 6%;
+    margin-bottom: 20px;
+}
+.javaXIV, .teams{
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+.javaXIV{
+    background-color: rgb(24, 23, 23);
+    color: #ddd;
+}
+.JavaXV{
+    width: 40%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    float: left;
+    margin-left: 6%;
+}
+.javaXV, .teams{
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+.javaXV{
+    background-color: rgb(24, 23, 23);
+    color: #ddd;
+}
+.JavaXVI{
+    width: 40%;
+    border-collapse: collapse;
+    float: right;
+    margin-right: 6%;
+    margin-bottom: 20px;
+}
+.javaXVI, .teams{
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+.javaXVI{
+    background-color: rgb(24, 23, 23);
+    color: #ddd;
+}
+.JavaXVII{
+    width: 40%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    float: left;
+    margin-left: 6%;
+}
+.javaXVII, .teams{
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+.javaXVII{
+    background-color: rgb(24, 23, 23);
+    color: #ddd;
+}
+.JavaXVIII{
+    width: 40%;
+    border-collapse: collapse;
+    float: right;
+    margin-right: 6%;
+    margin-bottom: 20px;
+}
+.javaXVIII, .teams{
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+.javaXVIII{
+    background-color: rgb(24, 23, 23);
+    color: #ddd;
+}
+.JavaXIX{
+    width: 40%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    float: left;
+    margin-left: 6%;
+}
+.javaXIX, .teams{
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+.javaXIX{
+    background-color: rgb(24, 23, 23);
+    color: #ddd;
+}
+.JavaXX{
+    width: 40%;
+    border-collapse: collapse;
+    float: right;
+    margin-right: 6%;
+    margin-bottom: 20px;
+}
+.javaXX, .teams{
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+.javaXX{
+    background-color: rgb(24, 23, 23);
+    color: #ddd;
+}
+.JavaXXI{
+    width: 40%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    float: left;
+    margin-left: 6%;
+}
+.javaXXI, .teams{
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+.javaXXI{
+    background-color: rgb(24, 23, 23);
+    color: #ddd;
+}
+.JavaXXII{
+    width: 40%;
+    border-collapse: collapse;
+    float: right;
+    margin-right: 6%;
+    margin-bottom: 20px;
+}
+.javaXXII, .teams{
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+.javaXXII{
+    background-color: rgb(24, 23, 23);
+    color: #ddd;
+}
+.JavaXXIII{
+    width: 40%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    float: left;
+    margin-left: 6%;
+}
+.javaXXIII, .teams{
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+.javaXXIII{
+    background-color: rgb(24, 23, 23);
+    color: #ddd;
+}
+.JavaXXIV{
+    width: 40%;
+    border-collapse: collapse;
+    float: right;
+    margin-right: 6%;
+    margin-bottom: 20px;
+}
+.javaXXIV, .teams{
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+.javaXXIV{
+    background-color: rgb(24, 23, 23);
+    color: #ddd;
+}
+.JavaXXV{
+    width: 40%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    float: left;
+    margin-left: 6%;
+}
+.javaXXV, .teams{
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+.javaXXV{
+    background-color: rgb(24, 23, 23);
+    color: #ddd;
+}
+.JavaXXVI{
+    width: 40%;
+    border-collapse: collapse;
+    float: right;
+    margin-right: 6%;
+    margin-bottom: 20px;
+}
+.javaXXVI, .teams{
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+.javaXXVI{
+    background-color: rgb(24, 23, 23);
+    color: #ddd;
+}
+.JavaXXVII{
+    width: 40%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    float: left;
+    margin-left: 6%;
+}
+.javaXXVII, .teams{
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+.javaXXVII{
+    background-color: rgb(24, 23, 23);
+    color: #ddd;
+}
+.JavaXXVIII{
+    width: 40%;
+    border-collapse: collapse;
+    float: right;
+    margin-right: 6%;
+    margin-bottom: 20px;
+}
+.javaXXVIII, .teams{
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+.javaXXVIII{
+    background-color: rgb(24, 23, 23);
+    color: #ddd;
 }
