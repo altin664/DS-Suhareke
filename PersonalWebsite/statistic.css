@@ -1,0 +1,122 @@
+::selection{
+    background: rgb(197, 197, 19);
+    color: rgb(24, 23, 23);
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(polygon-scatter-haikei\ \(1\).svg);
+    background-size: cover;
+    margin-bottom: 3%;
+}
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 65px;
+    padding: 0px;
+    background-color: rgb(24, 23, 23);
+    justify-content: space-between;
+}
+h2 {
+    color: rgb(197, 197, 19);
+    font-size: 30px;
+    margin: 0px;
+    padding: 10px;
+    text-align: left;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+a{
+    position: relative;
+    cursor: pointer;
+    color: rgb(197, 197, 19);
+    font-size: 28px;
+    padding: 0.5em 1em;
+    transition: color 0.25s;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+    border-radius: 10px;
+    font-family: Rubik, sans-serif;
+}
+a:hover{
+    color: rgb(24, 23, 23);
+    background-color: rgb(197, 197, 19);
+    height: 60px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px 30px #292700;
+}
+a:hover::selection{
+    background: rgb(24, 23, 23);
+    color: rgb(197, 197, 19);
+}
+h1{
+    color: #ddd;
+    background-color: rgb(24, 23, 23);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 43%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.table-container {
+    background-color: #f1f1f1;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead {
+    background-color: rgb(24, 23, 23);
+    color: #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    cursor: pointer;
+}
+
+tbody tr:hover {
+    background-color: #ddd;
+}
+.shot-type{
+    background-color: #f1f1f1;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+.t-head{
+    background-color: rgb(24, 23, 23);
+    color: #ddd;
+}
+.t-head:hover{
+    background-color:rgb(24, 23, 23);
+}

@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -25,6 +26,7 @@ nav {
     background-color: rgb(24, 23, 23);
     justify-content: space-between;
 }
+
 h2 {
     color: rgb(197, 197, 19);
     font-size: 30px;
@@ -90,7 +92,7 @@ table {
     margin-left: auto;
     margin-right: auto;
     background-color: #ddd;
-    opacity: 0.9;
+    opacity: 0.95;
 }
 th, td {
     padding: 8px;
@@ -192,6 +194,18 @@ th {
   float: left;
   margin-left: 6%;
 }
+p{
+    background-color: rgb(197, 197, 19);
+    color: rgb(24, 23, 23);
+    border-radius: 10px;
+    width: 16%;
+    text-align: center;
+    margin: 0;
+}
+p::selection{
+    background: rgb(24, 23, 23);
+    color: rgb(197, 197, 19);
+}
 .javaI, .teams{
   padding: 12px;
   border: 1px solid #ddd;
@@ -210,12 +224,16 @@ th {
     justify-content: center;
     text-align: center;
 }
+.main-match::selection{
+    background: rgb(24, 23, 23);
+    color: rgb(197, 197, 19);
+}
 .procredit{
     background-color: rgb(24, 23, 23);
     color: #ddd;
     padding: 10px;
     align-items: center;
-    width: 44%;
+    width: 57%;
 }
 .JavaII{
     width: 40%;
