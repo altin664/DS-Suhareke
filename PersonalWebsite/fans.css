@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+::selection{
+    background: rgb(197, 197, 19);
+    color: rgb(24, 23, 23);
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-image: url(polygon-scatter-haikei\ \(2\).svg);
+    background-size: cover;
+}
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 65px;
+    padding: 0px;
+    background-color: rgb(24, 23, 23);
+    justify-content: space-between;
+}
+
+h2 {
+    color: rgb(197, 197, 19);
+    font-size: 30px;
+    margin: 0px;
+    padding: 10px;
+    text-align: left;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+a{
+    position: relative;
+    cursor: pointer;
+    color: rgb(197, 197, 19);
+    font-size: 28px;
+    padding: 0.5em 1em;
+    transition: color 0.25s;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+    border-radius: 10px;
+    font-family: Rubik, sans-serif;
+}
+a:hover{
+    color: rgb(24, 23, 23);
+    background-color: rgb(197, 197, 19);
+    height: 60px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px 30px #292700;
+}
+a:hover::selection{
+    background: rgb(24, 23, 23);
+    color: rgb(197, 197, 19);
+}
+h1{
+    color: #ddd;
+    background-color: rgb(24, 23, 23);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 56%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+h3{
+    color: #ddd;
+    background-color: rgb(24, 23, 23);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px ;
+    width: 37%;
+    font-size: large;
+    height: 70%;
+}
+img{
+    width: 40%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
