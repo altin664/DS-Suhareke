@@ -100,5 +100,13 @@ img{
     height: auto;
     position: absolute;
     left: 0;
+    top: 0;
+}
+image{
+    width: 50%;
+    height: auto;
+    position: absolute;
     right: 0;
+    top: 0;
+    margin-right: 0;
 }

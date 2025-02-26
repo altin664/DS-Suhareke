@@ -109,8 +109,13 @@ p{
     padding: 10px;
     text-align: left;
     background-color: rgb(197, 197, 19);
+    margin-bottom: 0;
 }
 p::selection{
     background: rgb(24, 23, 23);
     color: rgb(197, 197, 19);
+}
+footer{
+    bottom: 0;
+    margin-bottom: 0;
 }
