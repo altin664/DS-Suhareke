@@ -116,6 +116,8 @@ p::selection{
     color: rgb(197, 197, 19);
 }
 footer{
+    position: fixed;
     bottom: 0;
+    width: 100%;
     margin-bottom: 0;
 }

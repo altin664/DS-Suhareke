@@ -95,18 +95,10 @@ h3{
     font-size: large;
     height: 70%;
 }
-img{
-    width: 40%;
+img.xhebrailat {
+    width: 100px;
     height: auto;
     position: absolute;
     left: 0;
     top: 0;
-}
-image{
-    width: 50%;
-    height: auto;
-    position: absolute;
-    right: 0;
-    top: 0;
-    margin-right: 0;
 }
