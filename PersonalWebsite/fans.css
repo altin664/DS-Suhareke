@@ -71,7 +71,7 @@ h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: auto;
     margin-right: auto;
-    width: 56%;
+    width: 46%;
     padding: 10px;
     border-radius: 10px;
     margin-top: 20px;
@@ -95,10 +95,20 @@ h3{
     font-size: large;
     height: 70%;
 }
-img.xhebrailat {
-    width: 100px;
+img {
+    width: 450px;
     height: auto;
     position: absolute;
     left: 0;
     top: 0;
+}
+.container {
+    display: flex;
+    align-items: center;
+}
+.team-logo{
+    margin-left: 1000px;
+    margin-top: 60px;
+    width: 700px;
+    padding: 10px;
 }

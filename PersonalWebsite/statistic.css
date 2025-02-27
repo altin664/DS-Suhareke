@@ -72,12 +72,13 @@ h1{
     margin-bottom: 20px;
 }
 .table-container {
-    background-color: #f1f1f1;
+    background-color: #ddd;
     width: 90%;
     justify-content: center;
     align-items: center;
     margin-left: 5%;
     margin-right: 5%;
+    opacity: 0.9;
 }
 
 table {
@@ -102,7 +103,7 @@ th {
 }
 
 tbody tr:hover {
-    background-color: #ddd;
+    background-color: #f1f1f1;  
 }
 .shot-type{
     background-color: #f1f1f1;
