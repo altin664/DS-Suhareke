@@ -61,6 +61,18 @@ a:hover{
     border-radius: 10px;
     box-shadow: 0px 0px 50px 30px #292700;
 }
+.nav-link.active{
+    color: rgb(24, 23, 23);
+    background-color: rgb(197, 197, 19);
+    height: 60px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px 30px #292700;
+}
+.nav-link.active::selection{
+    background: rgb(24, 23, 23);
+    color: rgb(197, 197, 19);
+}
 a:hover::selection{
     background: rgb(24, 23, 23);
     color: rgb(197, 197, 19);
@@ -662,4 +674,37 @@ p::selection{
 .javaXXVIII{
     background-color: rgb(24, 23, 23);
     color: #ddd;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    bottom: 0;
+    display: inline-block;
+    width: 100%;
+}
+img {
+    width: initial;
+    height: initial;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+h3{
+    color: #ddd;
+    background-color: rgb(24, 23, 23);
+    max-width: auto;
+    margin-bottom: 300px;
+}
+strong{
+    color: #ddd;
+}
+.footer-link {
+    color: #ddd;
+    text-decoration: none;
+}
+.footer-link:hover {
+    background-color: transparent;
+    color: inherit;
+    transition: none;
+    box-shadow: 0px 0px 0px 0px;
 }

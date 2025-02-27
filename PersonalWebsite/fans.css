@@ -61,6 +61,18 @@ a:hover{
     border-radius: 10px;
     box-shadow: 0px 0px 50px 30px #292700;
 }
+.nav-link.active{
+    color: rgb(24, 23, 23);
+    background-color: rgb(197, 197, 19);
+    height: 60px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px 30px #292700
+}
+.nav-link.active::selection{
+    background: rgb(24, 23, 23);
+    color: rgb(197, 197, 19);
+}
 a:hover::selection{
     background: rgb(24, 23, 23);
     color: rgb(197, 197, 19);
@@ -101,14 +113,15 @@ img {
     position: absolute;
     left: 0;
     top: 0;
+    margin-top: 200px;
 }
 .container {
     display: flex;
     align-items: center;
 }
 .team-logo{
-    margin-left: 1000px;
-    margin-top: 60px;
+    margin-left: 980px;
+    margin-top: 230px;
     width: 700px;
     padding: 10px;
 }
