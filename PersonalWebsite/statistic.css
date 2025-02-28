@@ -133,3 +133,20 @@ tbody tr:hover {
 .t-head:hover{
     background-color:rgb(24, 23, 23);
 }
+img {
+    width: initial;
+    height: initial;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+.footer-link {
+    color: #ddd;
+    text-decoration: none;
+}
+.footer-link:hover {
+    background-color: transparent;
+    color: inherit;
+    transition: none;
+    box-shadow: 0px 0px 0px 0px;
+}
