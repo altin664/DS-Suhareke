@@ -4,17 +4,33 @@
     <meta charset="UTF-8" />
     <title>Hard</title>
     <script>
-        function Book(title, author, pager){
-            this.title=title;
-            this.author=author;
-            this.pages=pager;
 
-            this.printSummary = function () {
-            console.log('${this.title} by ${this.author} has ${this.pages.}');
-            };
-        }
-        const myBook = new Book('The Great Gatsby', 'F.Scott Fitzgerald', 219);
-        myBook.printSummary();
+    function Book(title, author, pager) {
+        this.title = title;
+        this.author = author;
+        this.pages = pager;
+
+        this.printSummary = function () {
+            console.log(`${this.title} by ${this.author} has ${this.pages} pages.`);
+        };
+    }
+
+    const myBook = new Book('The Great Gatsby', 'F. Scott Fitzgerald', 219);
+    myBook.printSummary(); 
+
+    function Phone(screen, batteryLife, model) {
+        this.screen = screen;
+        this.batteryLife = batteryLife;
+        this.model = model;
+
+        this.printSummary = function () {
+            console.log(`${this.screen} screen with ${this.batteryLife} battery life has ${this.model} model.`);
+        };
+    }
+
+    const myPhone = new Phone('6.1 inch', '20 hours', 'iPhone 13');
+    myPhone.printSummary()
+
     </script>
 </head>
 <body>
