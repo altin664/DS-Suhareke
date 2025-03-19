@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Hard</title>
+    <script>
+        function Book(title, author, pager){
+            this.title=title;
+            this.author=author;
+            this.pages=pager;
+
+            this.printSummary = function () {
+            console.log('${this.title} by ${this.author} has ${this.pages.}');
+            };
+        }
+        const myBook = new Book('The Great Gatsby', 'F.Scott Fitzgerald', 219);
+        myBook.printSummary();
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
