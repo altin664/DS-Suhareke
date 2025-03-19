@@ -4,32 +4,33 @@
     <meta charset="UTF-8" />
     <title>Hard</title>
     <script>
+function Book(title, author, pages) {
+    this.title = title;
+    this.author = author;
+    this.pages = pages;
 
-    function Book(title, author, pager) {
-        this.title = title;
-        this.author = author;
-        this.pages = pager;
+    this.printSummary = function () {
+        console.log(`${this.title} by ${this.author} has ${this.pages} pages.`);
+    };
+}
 
-        this.printSummary = function () {
-            console.log(`${this.title} by ${this.author} has ${this.pages} pages.`);
-        };
-    }
+const myBook = new Book('The Great Gatsby', 'F. Scott Fitzgerald', 219);
+myBook.printSummary();  
 
-    const myBook = new Book('The Great Gatsby', 'F. Scott Fitzgerald', 219);
-    myBook.printSummary(); 
+function Phone(screen, batteryLife, model, color, cameras) {
+    this.screen = screen;
+    this.batteryLife = batteryLife;
+    this.model = model;
+    this.color = color;
+    this.cameras = cameras;
 
-    function Phone(screen, batteryLife, model) {
-        this.screen = screen;
-        this.batteryLife = batteryLife;
-        this.model = model;
+    this.printSummary = function () {
+        console.log(`${this.screen} screen, ${this.batteryLife} battery life, ${this.model} model, in ${this.color} color, with ${this.cameras} cameras.`);
+    };
+}
 
-        this.printSummary = function () {
-            console.log(`${this.screen} screen with ${this.batteryLife} battery life has ${this.model} model.`);
-        };
-    }
-
-    const myPhone = new Phone('6.1 inch', '20 hours', 'iPhone 13');
-    myPhone.printSummary()
+const myPhone = new Phone('6.5 inch', '12 hours', 'iPhone 13', 'Black', 3);
+myPhone.printSummary(); 
 
     </script>
 </head>
