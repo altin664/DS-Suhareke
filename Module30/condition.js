@@ -29,4 +29,4 @@ button.onclick = function (){
         text.innerHTML = "Input value is equal to 10";
     }
     
-}
+};
