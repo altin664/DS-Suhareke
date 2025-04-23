@@ -4,7 +4,7 @@ var  sleeptime;
 var  noon = 12;
 
 
-function showCurrentTime(){
+function showCurrentTime(){ 
     var clock = document.getElementById('clock');
     var currentTime = new Date();
 
@@ -35,4 +35,31 @@ function changeImage (){
         images = "morning.gif";
         console.log("morning");
     }
+     
+    else if (time == dstime){
+        images ="class.gif"
+
+    }
+
+    else if(time == sleepTime){
+        images ="night.gif";
+    }
+    imageHTML.src = image;
+    console.log(imageHTML.src);
+
 }
+
+function updateClock(){
+    var wakeUpTimeSelector = document.getElementById('wakeUpTimeSelector')
+
+    wakeuptime=wakeUpTimeSelector.value;
+
+    var dsTimeSelector = document.getElementById('dsTimeSelector')
+    dstime = dsTimeSelector.value;
+
+    var sleepTimeSelector=document.getElementById('sleepTimeSelector')
+    sleeptime = sleepTimeSelector.value;
+
+}
+var saveButton = document.getElementById("saveButtone")
+saveButton.addEventListener("click",updateClock);
