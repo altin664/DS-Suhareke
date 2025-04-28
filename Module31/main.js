@@ -35,3 +35,34 @@ for(var i=0; i<5; i++){
     console.log("Value of i is: "+1);
 }
 console.log("--------------------------")
+
+//for in
+var person ={firstName:"Jhon", lastName:"Doe", age:25};
+
+var text='';
+var z;
+for(z in person){
+    text += person[z];
+}
+
+console.log(text);
+
+console.log("-------------------------");
+
+//for off
+
+var names = ['Steve','Bill','Mark'];
+var y;
+for(y of names){
+    console.log(y);
+
+}
+
+console.log("---------------------------");
+
+var txt="Javascript";
+var l;
+
+for(1 of txt){
+    console.log(1);
+}

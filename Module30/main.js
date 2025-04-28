@@ -35,6 +35,7 @@ function changeImage (){
         images = "morning.gif";
         console.log("morning");
     }
+<<<<<<< Updated upstream
      
     else if (time == dstime){
         images ="class.gif"
@@ -47,6 +48,9 @@ function changeImage (){
     imageHTML.src = image;
     console.log(imageHTML.src);
 
+=======
+    
+>>>>>>> Stashed changes
 }
 
 function updateClock(){
