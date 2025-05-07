@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 33</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    
+<form onsubmit="return_va;idation();" method="POST">
+    <div class="name-container">
+        <label id="name_lable" for="name">Name</label>
+        <input type="text" name="name" id="name">
+
+        <span id="name_error">Please enter a valid name!</span>
+    </div>
+
+    <div class="age-container">
+        <label id="age_lable" for="name">Age</label>
+        <input type="text" name="age" id="age">
+
+        <span id="age_error">Please enter a valid age!</span>
+    </div>
+
+    <br>
+    <div class="city-container">
+        <label id="city_lable" for="city">City:</label>  
+        <select name="city" id="city">
+            <option value="Prishtine" selected>Prishtine</option>
+            <option value="Prizren" selected>Prizren</option>
+            <option value="Gjilan" selected>Gjilan</option>
+            <option value="Ferizaj" selected>Ferizaj:</option>
+        </select>
+        <span id="city_error">Please select a city</span>
+    </div>
+    <br>
+    <button type="submit" name="submit">Send</button>
+</form>
+<script src="index.js"></script>
+</body>
+</html>
