@@ -8,17 +8,17 @@ setTimeout(function () { document.write('Ana'); }, 3000);
 
 printNames();*/
 
-var colors=['red','green','blue', 'purple'];
+var colors=['red','green','blue','purple'];
 
 function changeBgColor(){
-        document.querySelector('body').style.backroung=
+        document.querySelector('body').style.background=
         colors[Math.floor(Math.random()*colors.length)];
     }
 
     var names =['Jhon', 'Ana','Bob', 'Mark'];
 
     function changeNames(){
-        document.querySelector('body').style.backroung=
+        document.querySelector('body').style.background=
         colors[Math.floor(Math.random()*names.length)];
 }
 
