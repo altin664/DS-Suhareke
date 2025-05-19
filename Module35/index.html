@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+     .slide{
+        width: 100%;
+     }
+
+     .prev, .next{
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        padding: 20px;
+     }
+     .next{
+        right: 0;
+     }
+
+     .prev:hover, .next:hover{
+        background-color: black;
+    
+     }
+    </style>
+    
+    <title>SLIDESHOW</title>
+</head>
+<body>
+    <div id="slideWrapper">
+
+          <div class="slide">
+            <img src="pic1.jpg" style="width: 100%;"/>
+
+          </div>
+
+          <div>
+            <img src="pic2.jpg" style="width: 100%;"/>
+          </div>
+
+          <div>
+            <img src="pic3.jpg" style="width: 100%;"/>
+          </div>
+          </div>
+
+
+          <a class="prev"><img src="backward.png" style="width: 50px; height: 50px;" onclick="plusSlider(-1)"></a>
+          <a class="next"><img src="forward.png" style="width: 50px; height: 50px;" onclick="plusSlider(1)"></a>
+
+    <script src="main.js"></script>
+</body>
+
+
+</html>
