@@ -1,24 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Easy </title>
-    <style>
-        .error{
-            color: red;
-            font-size: 12px;
-            display: none;
-        }
-    </style>
+
+  <title>Easy Challange</title>
 </head>
 <body>
-  <form id="nameForm">
-    <label for="name">Shkruani emrin </label>
-    <input type="text" id="name" name="name" required>
-    <span id="error" class="error">Lejohen vetem</span>
+  <form id="nameForm" onsubmit="return validateName()">
+    <label for="userName">Type your name:</label>
+    <input type="text" id="userName" name="userName" />
+    <span id="error" class="error"></span><br />
+    <button type="submit">Submit</button>
   </form>
 
-    <p id="result"></p>
+
+  <script src="easy.js"></script>
+</body>
+</html>
+
 </body>
 </html>
